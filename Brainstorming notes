@@ -1,0 +1,74 @@
+Wall street program (engelska)
+Lägg till ID överallt
+
+Player
+String PlayerName
+Enum PlayerColour
+Int Wallet nullable
+Int BankAccount nullable
+Int Loans nullable
+List <Stocks> Stocks nullable
+List <Funds> Funds nullable
+List <HappeningCards> HappeningCards nullable(bankomatkort etc)
+List <Streets> Streets
+Enum CarType nullable
+List <PurchaseHistory> PurchaseHistory
+
+Board
+Int BoardNumber Unique
+HappeningCards
+Enum CardType (bankkort, ws kort, bankinspektion) String HeadLine
+String CardText
+
+Bank
+Int BankId
+Enum BankName (unik)
+List <Stocks> Stocks
+List <Funds> Funds
+
+Stock
+StockID
+Int StockNumber (1-6)
+Int StockCost
+Int StockDividends(aktieutdelning)
+
+Fund
+Int FundID
+Int FunsCost
+Int FundDividend
+
+Street 
+Int StreetID
+String StreetName
+Int StreetPrice
+Int RentPriceWithoutBuilding
+Int RentPriceWithBuilding
+Int BuildingCost
+
+CorporateGroup
+Int CorporateID
+Enum CorporateName
+List <Streets> Streets
+
+Functions
+SetPlayerName
+Choose color
+Buy function
+Sell function
+Dividendsfunction
+Roll dice function
+Roll dice different car function override
+Move player function
+InterestRate 10-60%
+End turn button
+
+Checks
+IfPropertyOwnedByPlayer 
+IfPropertyBuyable
+IfPropertyOwnedByOtherPlayer
+
+Turnbased
+Task1 - checks - action
+Task2 - checks - action
+Task3
+Etc

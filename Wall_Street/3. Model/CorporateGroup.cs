@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Wall_Street.Model
 {
+	public enum CorporateName {Service, RealEstate, Forest, Pharma, Electric, Finance };
 	public class CorporateGroup
 	{
 		public int CorporateID { get; set; }
-		public string CorporateName { get; set; }
+		public CorporateName CorporateName { get; set; }
 		public List<Street> Streets { get; set; }
+		
 	}
 }

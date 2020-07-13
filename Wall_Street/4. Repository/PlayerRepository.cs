@@ -9,10 +9,8 @@ namespace Wall_Street.Repository
 {
 	public class PlayerRepository
 	{
-		private static readonly List<Player> Players = new List<Player>()
-		{
-			
 
-		};
+		
+
 	}
 }

@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Wall_Street.Model
 {
+	public enum BankName {ItaliaBank, LondonBank, MonacoBank, FranceBank, BundesBank, WallStreetBank }
 	public class Bank
 	{
 		public int BankID { get; set; }
-		public string BankName { get; set; }
+		public BankName BankName { get; set; }
 		public List<Stock> Stocks { get; set; }
 		public List<Fund> Funds { get; set; }
 	}

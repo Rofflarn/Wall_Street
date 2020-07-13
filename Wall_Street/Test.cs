@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace Wall_Street
 {
-	class Program
+	class Test
 	{
-		static void Main(string[] args)
-		{
-			Console.WriteLine("Hej");
-			Console.WriteLine("Hej");
-		}
 	}
 }

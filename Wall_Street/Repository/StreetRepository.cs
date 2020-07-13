@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Wall_Street
+namespace Wall_Street.Repository
 {
-	class Test
+	public class StreetRepository
 	{
 	}
 }
